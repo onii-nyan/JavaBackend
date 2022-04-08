@@ -15,7 +15,6 @@ public class CustomUserDetails implements UserDetails {
         this.user = user;
     }
  
-	
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// TODO Auto-generated method stub
